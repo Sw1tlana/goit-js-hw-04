@@ -2,7 +2,7 @@
 "use strict";
 function isEnoughCapacity(products, containerSize) {
   let total = 0;
-  const productList = Object.values(products)
+  const productList = Object.values(products);
     for (const product of productList) {
     total += product;
   }
