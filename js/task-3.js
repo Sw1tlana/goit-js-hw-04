@@ -1,4 +1,5 @@
 // task-3
+"use strict";
 const profile = {
     username: "Jacob",
     playTime: 300,

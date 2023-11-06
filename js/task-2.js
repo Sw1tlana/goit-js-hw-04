@@ -1,6 +1,7 @@
 // task-2
+"use strict";
 function calcAverageCalories(days) {
-    totalCalories = 0;
+   let totalCalories = 0;
     if (days.length === 0) {
         return 0;
     }
